@@ -17,9 +17,9 @@ int main() {
 
 
     for (size_t i = 0; i < A.size(); i++) {
-        dot += A[i] * B[i];
+        dot += (A[i] * B[i]);
     }
-
+	//result of the dot product
     cout << "Dot product = " << dot << endl;
 
     return 0;
